@@ -1,0 +1,15 @@
+/***************************************************************
+****Angel Guillermo  Martinez Cruz******************************
+****AreaOfCircle************************************************
+****This pogram calculate the area of a circle.*****************
+***************************************************************/
+import java.util.*;
+public class AreaOfCircle{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in)
+    double r, pi, area;
+    System.out.print("Se va a calcular el area de un circulo")
+    radio=solicitarValor("Indica el radio: ");
+    System.out.printf("\nEl area de la circunferencia es %1.2f\n", Math.PI*(Math.pow(radio,2)))
+  }
+}
